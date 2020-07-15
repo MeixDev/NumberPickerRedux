@@ -1,10 +1,22 @@
-# NumberPickerRedux
+# NumberPickerRedux [![Build Status](https://travis-ci.com/MeixDev/NumberPickerRedux.svg?branch=master)](https://travis-ci.com/MeixDev/NumberPickerRedux) [![Coverage Status](https://coveralls.io/repos/github/MeixDev/NumberPickerRedux/badge.svg?branch=master)](https://coveralls.io/github/MeixDev/NumberPickerRedux?branch=master)
 
 Update of MarcinusX's NumberPicker package for my personal purposes.
 
-NumberPickerRedux is a custom widget designed for choosing an integer or decimal number by scrolling spinners.
+NumberPickerRedux's NumberPicker is a custom widget designed for choosing an integer or decimal number by scrolling spinners.
 
 It is possible to use NumberPicker as a standalone widget as well as in NumberPickerDialog.
+
+As the project is not released on [pub.dev](https://pub.dev), you must add it as a dependency of your project the following way:
+
+```yaml
+dependencies:
+  number_picker_redux:
+    git:
+      url: git@github.com:MeixDev/NumberPickerRedux.git
+```
+
+if you get a `Host key verification failed` when trying to pub get, you should add GitHub as a known host:
+`ssh-keyscan github.com >> ~/.ssh/known_hosts`
 
 ![vertical](https://raw.githubusercontent.com/MarcinusX/NumberPicker/master/example/screenshots/gif_example.gif)
 
